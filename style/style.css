@@ -61,8 +61,48 @@ h3 {
 }
 
 @media (max-width: 576px) {
-  h5 {
-    text-align: right;
-    color: blue;
+  body {
+    margin-top: 80px;
+  }
+  .introduction {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .navigation-buttons {
+    margin-bottom: 50px;
+  }
+
+  .projects h3,
+  .project-info {
+    text-align: center;
+  }
+
+  .project-info {
+    padding: 0;
+  }
+
+  .projects img {
+    display: none;
+  }
+
+  .projects .contact-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .weather-app {
+    padding: none;
   }
 }
