@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #6b62ff;
+  --secondary-color: #4c4c4c;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+.introduction {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+
+.contact-button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  margin-right: 20px;
+  box-shadow: 5px 5px 10px rgba(60, 60, 60, 0.5);
+}
+
+.about-button {
+  background-color: #fff;
+  color: var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  background-color: #6a62ff52;
+  padding: 25px 80px;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 10px;
+}
+
+@media (max-width: 576px) {
+  h5 {
+    text-align: right;
+    color: blue;
+  }
+}
